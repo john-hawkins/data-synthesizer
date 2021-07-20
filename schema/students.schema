@@ -1,0 +1,28 @@
+{
+    "type": "record",
+    "name": "Users",
+    "namespace": "com.amazonaws.personalize.schema",
+    "fields": [
+        {
+            "name": "USER_ID",
+            "type": "string"
+        },
+        {
+            "name": "AGE",
+            "type": ["null", "int"]
+        }, 
+       {
+            "name": "EDU",
+            "type": "string"
+        },
+        {
+            "name": "MAJOR",
+            "type": "string"
+        },
+        {
+            "name": "LANG",
+            "type": "string"
+        }
+    ],
+    "version": "1.0"
+}
